@@ -31,6 +31,6 @@
       android:name=".FlutterFirebaseMessagingInitProvider"
       android:authorities="${applicationId}.flutterfirebasemessaginginitprovider"
       android:exported="false"
-      android:initOrder="99" /> <!-- Firebase = 100, using 99 to run after Firebase initialises (highest first) -->
+      android:initOrder="99" />
   </application>
 </manifest>
